@@ -1,38 +1,19 @@
-# create-svelte
+# svelte client study/template repo
+- 스벨트 사용과 학습을 위한 버전별 템플릿 레포
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## 기초 사용
+~~~bash
+> npx sv create
+> npx sv carete my_app
 
-## Creating a project
+> npm run dev
+> npm run dev -- --open
+~~~
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Branch List
+1. main 
+    - 기능 테스트 및 메인 브랜치
+2. study/basic
+    - 기초 학습을 위한 브랜치
+3. ***template/basic***
+    - 가장 기초적인 템플릿 브랜치 - 방명록
